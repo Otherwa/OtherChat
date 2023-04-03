@@ -1,0 +1,14 @@
+{
+  "name": "otherchat",
+  "version": "1.0.0",
+  "description": "Encrypted Chat Service",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "keywords": [
+    "Nice"
+  ],
+  "author": "Atharv Desai",
+  "license": "Unlicense"
+}
