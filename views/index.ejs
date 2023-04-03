@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OtherChat</title>
+
+    <link rel="icon" type="image/png"
+        href="https://cdn-icons-png.flaticon.com/512/134/134914.png?w=740&t=st=1680533457~exp=1680534057~hmac=9e3ae0cc3951151213c1c464d757f7acfe982454aa048d5e1318e5e319c91920">
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="OtherChat">
+    <meta name="author" content="Atharv Desai">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Roboto:wght@700&family=Rouge+Script&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="feedback" style="padding: 1rem;">
+        <p>OtherChart (Alpha Preview/Omegele Sata Version)</p>
+        <p> Users Online : <span id="users">0</span></p>
+        <div class="users">
+
+        </div>
+    </div>
+    <div class="window">
+        <ul id="messages"></ul>
+    </div>
+    <form id="form">
+        <input id="input" autocomplete="off" /><button>Send</button>
+    </form>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
+
+</html>
